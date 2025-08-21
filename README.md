@@ -1,12 +1,21 @@
-# React + Vite
+# 🎭 Meme Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app that fetches meme templates from the [Imgflip API](https://api.imgflip.com/get_memes) and lets you create your own memes with custom captions. Built with **Vite**, deployed on **GitHub Pages**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Fetch random meme templates from Imgflip API
+- Add top and bottom text captions
+- Generate memes dynamically in-browser
+- Drag captions to reposition (via `react-draggable`)
+- Deployable on GitHub Pages
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- [React 18](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Imgflip API](https://imgflip.com/api)
+- [React Draggable](https://www.npmjs.com/package/react-draggable)
+- [gh-pages](https://www.npmjs.com/package/gh-pages) for deployment
