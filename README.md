@@ -2,7 +2,7 @@
 
 A simple React app that fetches meme templates from the [Imgflip API](https://api.imgflip.com/get_memes) and lets you create your own memes with custom captions. Built with **Vite**, deployed on **GitHub Pages**.
 
-Link:- [GitHub Pages](https://whydeezz.github.io/MemeGenerator/)
+Link:- [Meme Generator](https://whydeezz.github.io/MemeGenerator/)
 
 ---
 
